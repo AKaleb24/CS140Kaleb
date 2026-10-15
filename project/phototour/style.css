@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #183c43; background-color: #eef7f6; line-height: 1.6; }
+
+header { background-color: #075763; color: white; padding: 28px 20px; text-align: center; }
+
+header h1 { margin: 0; font-size: 2rem; }
+
+header p { margin: 8px 0 0; }
+
+nav { background-color: #fde7b3; padding: 12px; }
+
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; }
+
+nav a { display: block; padding: 8px 12px; color: #075763; text-decoration: none; border-radius: 5px; }
+
+nav a:hover, nav a:focus-visible { color: rgb(11, 103, 11); text-decoration: underline; }
+
+nav a[aria-current="page"] { background-color: #075763; color: white; }
+
+main { max-width: 1000px; margin: 28px auto; padding: 28px; background-color: white; border-radius: 10px; }
+
+h2, h3 { color: #075763; }
+
+.home-page { background-image: url("/islandphoto/background.jpeg"); background-repeat: repeat; }
+
+.intro { max-width: 650px; }
+
+.tour-list li { padding: 6px; }
+
+a { color: #075763; }
+
+figure { margin: 0; }
+
+figure img { display: block; width: 100%; height: auto; border-radius: 8px; }
+
+figcaption { padding-top: 10px; }
+
+footer { background-color: #075763; color: white; text-align: center; padding: 20px; }
+
+footer p { margin: 4px; }
+
+@media (max-width: 600px) { main { margin: 16px 12px; padding: 20px; } }
