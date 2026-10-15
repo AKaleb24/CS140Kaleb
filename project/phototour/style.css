@@ -21,7 +21,7 @@ main { max-width: 1000px; margin: 28px auto; padding: 28px; background-color: wh
 
 h2, h3 { color: #075763; }
 
-.home-page { background-image: url("/islandphoto/background.jpeg"); background-repeat: repeat; }
+.home-page { background-image: url("../../islandphoto/background.jpeg"); background-repeat: repeat; }
 
 .intro { max-width: 650px; }
 
