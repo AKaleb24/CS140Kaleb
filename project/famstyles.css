@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background-color: #f0ece6;
+  color: #38332f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+/* Centered wrapper */
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* Header background image */
+header {
+  padding: 40px;
+  background-color: #414a3c;
+  background-image: url("../images/hobiton.jpg");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #38332f;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+nav {
+  padding: 15px;
+  background-color: #414a3c;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 12px;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #e5d5b9;
+  color: #38332f;
+}
+
+main {
+  padding: 30px;
+}
+
+p {
+  margin: 0 0 20px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+figure {
+  float: right;
+  width: 240px;
+  margin: 0 0 20px 25px;
+  padding: 12px;
+  border: 1px solid #ddd3c7;
+  border-radius: 10px;
+  background-color: #f8f5f0;
+  box-shadow: 2px 2px 8px #ccc;
+}
+
+figure img {
+  width: 240px;
+  height: 200px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.quote-card {
+  clear: both;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f5efe5;
+}
+
+blockquote {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #414a3c;
+  color: white;
+  text-align: center;
+}
