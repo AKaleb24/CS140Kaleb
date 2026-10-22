@@ -14,11 +14,10 @@ body {
   background-color: white;
 }
 
-/* Header background image */
 header {
   padding: 40px;
   background-color: #414a3c;
-  background-image: url("../images/hobiton.jpg");
+  background-image: url("../images/hobiton1.jpg");
   background-size: cover;
   background-origin: padding-box;
   background-clip: padding-box;
