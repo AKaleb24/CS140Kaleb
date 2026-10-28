@@ -18,14 +18,14 @@ grid-template-rows: repeat(3,1fr);
 gap: 15px;
 }
 
-.menu div{
+.menu > div{
 background-color: pink;
 padding: 25px;
 border-radius: 10px;
 text-align: center;
 }
 
-.special{
+.menu > .special{
 grid-column: span 3;
 background-color: powderblue;
 font-weight: bold;
